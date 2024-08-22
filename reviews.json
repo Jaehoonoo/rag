@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. John Smith",
+      "subject": "Computer Science",
+      "stars": 4,
+      "review": "Great lecturer, very knowledgeable, but the assignments were tough."
+    },
+    {
+      "professor": "Dr. Emily Carter",
+      "subject": "Mathematics",
+      "stars": 5,
+      "review": "Excellent professor! Made complex topics easy to understand."
+    },
+    {
+      "professor": "Dr. Rachel Green",
+      "subject": "Psychology",
+      "stars": 3,
+      "review": "Engaging but lectures could be more organized."
+    },
+    {
+      "professor": "Dr. Michael Lee",
+      "subject": "Physics",
+      "stars": 2,
+      "review": "Very difficult exams and unclear grading criteria."
+    },
+    {
+      "professor": "Dr. Susan Harris",
+      "subject": "History",
+      "stars": 5,
+      "review": "Passionate and knowledgeable about the subject. Highly recommend!"
+    },
+    {
+      "professor": "Dr. William Brown",
+      "subject": "Economics",
+      "stars": 4,
+      "review": "Interesting lectures but too fast-paced at times."
+    },
+    {
+      "professor": "Dr. Sophia Miller",
+      "subject": "Biology",
+      "stars": 3,
+      "review": "Good content, but sometimes hard to follow her teaching style."
+    },
+    {
+      "professor": "Dr. David White",
+      "subject": "Chemistry",
+      "stars": 4,
+      "review": "Challenging but fair. Labs were well-organized."
+    },
+    {
+      "professor": "Dr. James Wilson",
+      "subject": "Political Science",
+      "stars": 5,
+      "review": "Very engaging and passionate about politics. Really enjoyed this class."
+    },
+    {
+      "professor": "Dr. Amanda Moore",
+      "subject": "Philosophy",
+      "stars": 2,
+      "review": "Lectures were too abstract, and the assignments were confusing."
+    },
+    {
+      "professor": "Dr. Olivia Taylor",
+      "subject": "Literature",
+      "stars": 4,
+      "review": "Insightful and thought-provoking, but the workload was heavy."
+    },
+    {
+      "professor": "Dr. Daniel Johnson",
+      "subject": "Statistics",
+      "stars": 3,
+      "review": "Solid professor but the exams were extremely difficult."
+    },
+    {
+      "professor": "Dr. Grace Martinez",
+      "subject": "Sociology",
+      "stars": 5,
+      "review": "Fantastic class! She’s passionate and very approachable."
+    },
+    {
+      "professor": "Dr. Henry Davis",
+      "subject": "Anthropology",
+      "stars": 4,
+      "review": "Interesting subject matter and engaging lectures."
+    },
+    {
+      "professor": "Dr. Chloe Thompson",
+      "subject": "Art History",
+      "stars": 5,
+      "review": "Incredible professor! She really brought the subject to life."
+    },
+    {
+      "professor": "Dr. Ethan Garcia",
+      "subject": "Philosophy",
+      "stars": 3,
+      "review": "Great discussions but not much guidance on assignments."
+    },
+    {
+      "professor": "Dr. Isabella Clark",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "review": "Good professor, but the labs were harder than expected."
+    },
+    {
+      "professor": "Dr. Lucas Robinson",
+      "subject": "Music Theory",
+      "stars": 5,
+      "review": "Very knowledgeable and passionate about the subject."
+    },
+    {
+      "professor": "Dr. Mia Rodriguez",
+      "subject": "Business Administration",
+      "stars": 4,
+      "review": "Good professor with lots of real-world experience."
+    },
+    {
+      "professor": "Dr. Noah Lewis",
+      "subject": "Chemistry",
+      "stars": 2,
+      "review": "Difficult to understand lectures and not very responsive to questions."
+    }
+  ]
+}
