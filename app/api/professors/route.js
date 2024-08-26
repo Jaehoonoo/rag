@@ -6,7 +6,6 @@ import * as cheerio from "cheerio";
 
 
 export async function POST(req) {
-  //const url = 'https://www.ratemyprofessors.com/professor/2931963'
   const data = await req.json();
   const url = data.url
 
@@ -57,8 +56,6 @@ export async function POST(req) {
     });
 
     // Check if embedding data is available
-    // TODO: currently only one vector is being added to the existing namespace and the metadata is the last rendered review
-    // fix this so that each review gets added as a vector
     if (embeddingResponse.data && embeddingResponse.data.length > 0) {
       const embedding = embeddingResponse.data[0].embedding;
 

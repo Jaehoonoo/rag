@@ -79,33 +79,43 @@ export default function Home() {
   };
 
   const sendLink = async () => {
+    setLoading(true);
+    const baseUrl = 'https://www.ratemyprofessors.com/professor/'
+
     handleClose();
     if (!link) {
       alert('Please enter a link');
       return;
     }
 
-    try {
-      const response = await fetch('/api/professors', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ url: link }), // TODO: enforce rate my professor url format
-      });
-      const result = await response.json();
-      console.log(result);
+    if (link.startsWith(baseUrl)) {
+      try {
+        const response = await fetch('/api/professors', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ url: link }), // TODO: enforce rate my professor url format
+        });
+        const result = await response.json();
+        console.log(result);
 
-      // Add a message indicating that memory has been updated
-      setMessages((messages) => [
-        ...messages,
-        { role: 'assistant', content: 'Memory updated' },
-    ]);
-    } catch (error) {
-      console.error("Error sending link:", error);
+        // Add a message indicating that memory has been updated
+        setMessages((messages) => [
+          ...messages,
+          { role: 'assistant', content: 'Memory updated' },
+      ]);
+      } catch (error) {
+        console.error("Error sending link:", error);
+      } finally {
+        setLoading(false);
+      }
+    } else {
+      alert('Please enter a valid Rate My Professor link: ( https://www.ratemyprofessors.com/professor/ )');
     }
     setLink('');
   };
+
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
